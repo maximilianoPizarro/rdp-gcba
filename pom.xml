@@ -153,9 +153,9 @@
 		</dependency>
 <!-- https://mvnrepository.com/artifact/com.github.jsimone/webapp-runner -->
 <dependency>
-  <groupId>com.heroku</groupId>
+  <groupId>com.github.jsimone</groupId>
   <artifactId>webapp-runner</artifactId>
-  <version>8.5.11.3</version>
+  <version>7.0.57.2</version>
   <scope>provided</scope>
 </dependency>
 
@@ -194,9 +194,9 @@
                   <configuration>
                       <artifactItems>
                           <artifactItem>
-                              <groupId>com.heroku</groupId>
+                              <groupId>com.github.jsimone</groupId>
                               <artifactId>webapp-runner</artifactId>
-                              <version>8.5.11.3</version>
+                              <version>7.0.57.2</version>
                               <destFileName>webapp-runner.jar</destFileName>
                           </artifactItem>
                       </artifactItems>
