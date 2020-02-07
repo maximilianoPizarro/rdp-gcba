@@ -1,5 +1,7 @@
 package com.rdp.springmvc.configuration;
 
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.Properties;
 
 import javax.naming.NamingException;
@@ -38,10 +40,21 @@ public class JpaConfiguration {
 	@Bean
 	public DataSource dataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
-		dataSource.setDriverClassName(environment.getRequiredProperty("jdbc.driverClassName"));
-		dataSource.setUrl(environment.getRequiredProperty("jdbc.url"));
-		dataSource.setUsername(environment.getRequiredProperty("jdbc.username"));
-		dataSource.setPassword(environment.getRequiredProperty("jdbc.password"));
+		URI dbUri;
+		try {
+			dbUri = new URI(System.getenv("DATABASE_URL"));
+			String username = dbUri.getUserInfo().split(":")[0];
+			String password = dbUri.getUserInfo().split(":")[1];
+			String dbUrl = "jdbc:postgresql://" + dbUri.getHost() + dbUri.getPath();
+			dataSource.setDriverClassName(environment.getRequiredProperty("jdbc.driverClassName"));
+			dataSource.setUrl(dbUrl);
+			dataSource.setUsername(username);
+			dataSource.setPassword(password);
+		
+		} catch (URISyntaxException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		return dataSource;
 	}
 
