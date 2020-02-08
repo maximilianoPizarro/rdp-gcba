@@ -11,7 +11,7 @@
 </head>
 
 
-<!-- NAVEGACIÓN PRINCIPAL -->
+<!-- NAVEGACIÃ“N PRINCIPAL -->
 <nav class="navbar navbar-default" role="navigation">
 <div class="container">
 	<div class="row">
@@ -22,13 +22,13 @@
 					class="icon-bar"></span>
 			</button>
 			<a class="navbar-brand" href="#"
-				title="Registro de Parque Informático">RDP</a>
+				title="Registro de Parque InformÃ¡tico">RDP</a>
 		</div>
 
 	</div>
 </div>
 </nav>
-<!-- FIN DE NAVEGACIÓN PRINCIPAL -->
+<!-- FIN DE NAVEGACIÃ“N PRINCIPAL -->
 
 <body>
 
@@ -61,11 +61,11 @@
 		</c:when>
 	</c:choose>  
 	
-	<form:form action="/rdp/bienvenido/" modelAttribute="user"
+	<form:form action="/bienvenido/" modelAttribute="user"
 		method="POST">
 
 		<div class="container">
-			<h2 class="h1 text-left">Iniciar Sesión</h2>
+			<h2 class="h1 text-left">Iniciar SesiÃ³n</h2>
 			<br>
 			<div class="form-group">
 				<label for="usuario">Usuario</label>
@@ -80,7 +80,7 @@
 
 					</div>
 				</div>
-				<br> <label for="usuario">Contraseña</label>
+				<br> <label for="usuario">ContraseÃ±a</label>
 				<div class="row">
 					<div class="col-xs-6">
 						<form:input type="password" path="password" id="password"
@@ -101,7 +101,7 @@
 				</div>
 
 				<br> <a data-toggle="modal" data-target="#restaurar">
-					Olvidé mi Contraseña</a>
+					OlvidÃ© mi ContraseÃ±a</a>
 
 			</div>
 		</div>
@@ -146,7 +146,7 @@
 									<div class="row">
 										<div class="col-xs-6">
 											<input type="submit" class="btn btn-primary btn-lg"
-												value="Recuperar contraseña">
+												value="Recuperar contraseÃ±a">
 										</div>
 									</div>
 								</div>
