@@ -23,7 +23,7 @@
 								class="icon-bar"></span>
 						</button>
 						<a class="navbar-brand" href="#"
-							title="Registro de Parque Informático">RDP</a>
+							title="Registro de Parque Informï¿½tico">RDP</a>
 
 					</div>
 					<div class="collapse navbar-collapse" id="main-nav">
@@ -102,7 +102,7 @@
 								</a>
 							</div>
 						<div class="col-md-4">
-							<a href="http://10.68.11.218/rdp-agente/Agente-3.0.exe" class="btn btn-primary btn-l"> <span
+							<a href="https://rdp-gcba.herokuapp.com/rdp-agente/Agente-3.0.exe" class="btn btn-primary btn-l"> <span
 								class="glyphicon glyphicon-download"></span> Descargar RDP-Agente
 							</a>
 						</div>

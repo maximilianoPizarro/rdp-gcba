@@ -145,7 +145,7 @@ public class LoginController {
 			final String email = usuario.getEmail();
 			mailSenderObj.send(new MimeMessagePreparator() {
 				public void prepare(MimeMessage mimeMessage) throws Exception {
-					String sistema = "10.68.11.218:8080/RDP/";
+					String sistema = "https://rdp-gcba.herokuapp.com/";
 					MimeMessageHelper mimeMsgHelperObj = new MimeMessageHelper(mimeMessage, true, "UTF-8");
 					mimeMsgHelperObj.setTo(email);
 					mimeMsgHelperObj.setFrom("agentedeplaya@gmail.com");

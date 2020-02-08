@@ -123,7 +123,7 @@
 					<div class="modal-body">
 
 						<main class="main-container no-padding-top" role="main"> <section>
-						<form:form action="/rdp/rec-cuenta" modelAttribute="user"
+						<form:form action="/rec-cuenta" modelAttribute="user"
 							method="POST">
 
 							<div class="container">

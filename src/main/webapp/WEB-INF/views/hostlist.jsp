@@ -22,14 +22,14 @@
 							<span class="icon-bar"></span> <span class="icon-bar"></span> <span
 								class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#" title="Registro de Parque Informático">RDP</a>
+						<a class="navbar-brand" href="#" title="Registro de Parque Informï¿½tico">RDP</a>
 					</div>
 					<div class="collapse navbar-collapse" id="main-nav">
 						<ul class="nav navbar-nav navbar-right">
 						<li><a href="<c:url value='/bienvenido/' />">Volver</a></li>
 							<c:choose>
 								<c:when test="${abm}">
-									<li><a href="<c:url value='/abm-usuarios-rdp/lista-de-usuarios' />">Administración de Usuarios</a></li>
+									<li><a href="<c:url value='/abm-usuarios-rdp/lista-de-usuarios' />">Administraciï¿½n de Usuarios</a></li>
 								</c:when>
 							</c:choose>
 							<c:choose>
@@ -92,7 +92,7 @@
 									<th>JAVA VERSION</th>
 									<th>RAM</th>
 									<th>DISCO</th>
-									<th>Ultima Actualización</th>
+									<th>Ultima Actualizaciï¿½n</th>
 								</tr>
 							</thead>
 						</table>
@@ -114,7 +114,7 @@
 								</a>
 							</div>
 							<div class="col-md-4">
-								<a href="http://10.68.11.218/rdp-agente/Agente-3.0.exe"
+								<a href="https://rdp-gcba.herokuapp.com/rdp-agente/Agente-3.0.exe"
 									class="btn btn-primary btn-l"> <span
 									class="glyphicon glyphicon-download"></span> Descargar
 									RDP-Agente

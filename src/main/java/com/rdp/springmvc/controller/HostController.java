@@ -342,7 +342,7 @@ public class HostController {
 		final String email = usuarioService.traerEmailGerencia();
 		mailSenderObj.send(new MimeMessagePreparator() {
 			public void prepare(MimeMessage mimeMessage) throws Exception {
-				String sistema = "10.68.11.218:8080/RDP/";
+				String sistema = "https://rdp-gcba.herokuapp.com/";
 				MimeMessageHelper mimeMsgHelperObj = new MimeMessageHelper(mimeMessage, true, "UTF-8");
 				mimeMessage.setRecipients(Message.RecipientType.CC, InternetAddress.parse(email));
 
