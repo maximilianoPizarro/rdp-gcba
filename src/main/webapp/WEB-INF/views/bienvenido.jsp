@@ -155,7 +155,7 @@
 							</div>
 							<div class="col-md-4">
 								<a href="https://rdp-gcba.herokuapp.com/static/rdp-agente/rdp-agente.rar"
-									class="btn btn-primary btn-l"> <span
+									class="btn btn-primary btn-l" download="rdp-agente.rar"> <span
 									class="glyphicon glyphicon-download"></span> Descargar
 									RDP-Agente
 								</a>
