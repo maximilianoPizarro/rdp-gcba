@@ -99,7 +99,7 @@
 								</a>
 							</div>
 						<div class="col-md-4">
-							<a href="https://rdp-gcba.herokuapp.com/static/rdp-agente/rdpservice-3.0.jar" class="btn btn-primary btn-l"> <span
+							<a href="https://rdp-gcba.herokuapp.com/static/rdp-agente/rdp-agente.rar" class="btn btn-primary btn-l"> <span
 								class="glyphicon glyphicon-download"></span> Descargar RDP-Agente
 							</a>
 						</div>
