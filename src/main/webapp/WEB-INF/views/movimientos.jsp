@@ -1,12 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@include file="header.jsp"%>
 <html>
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-</head>
 
 <body>
 	<main class="main-container no-padding-top" role="main">
@@ -23,7 +20,7 @@
 								class="icon-bar"></span>
 						</button>
 						<a class="navbar-brand" href="#"
-							title="Registro de Parque Inform�tico">RDP</a>
+							title="Registro de Parque Informático">RDP</a>
 
 					</div>
 					<div class="collapse navbar-collapse" id="main-nav">
