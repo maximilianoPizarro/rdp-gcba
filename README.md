@@ -7,6 +7,8 @@ https://rdp-gcba.herokuapp.com/
 Prototipado del Artefacto Web para dar soporte a la gestión de equipos infraestructura
 de la Dirección General del Cuerpo de Agentes de Control del Tránsito y Seguridad Vial.
 
+Ver más [aquí](https://github.com/maximilianoPizarro/rdp-gcba/blob/master/Registro%20del%20Parque%20Inform%C3%A1tico.pdf)
+
 Técnologia Web:
 - Java 8
 - Spring Framework 4.3.0
