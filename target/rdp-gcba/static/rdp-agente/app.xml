@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Application ts="1581351319649" uri="https://rdp-gcba.herokuapp.com/static/rdp-agente/" launch="com.rdp.App">
+    <lib file="activation-1.1.jar" checksum="3004473000" size="62983"/>
+    <lib file="bootstrapfx-core-0.2.1.jar" checksum="698130008" size="10220"/>
+    <lib file="c3p0-0.9.1.1.jar" checksum="2654894720" size="608376"/>
+    <lib file="commons-codec-1.10.jar" checksum="13471445" size="284184"/>
+    <lib file="commons-logging-1.2.jar" checksum="3829945133" size="61829"/>
+    <lib file="controlsfx-8.40.11.jar" checksum="1910577522" size="985420"/>
+    <lib file="gson-2.8.5.jar" checksum="2004928657" size="241622"/>
+    <lib file="httpclient-4.5.6.jar" checksum="3931757138" size="767140"/>
+    <lib file="httpcore-4.4.10.jar" checksum="898698749" size="326356"/>
+    <lib file="javax.mail-api-1.5.5.jar" checksum="1171816689" size="203142"/>
+    <lib file="jboss-logging-3.3.2.Final.jar" checksum="1162804401" size="66469"/>
+    <lib file="log4j-1.2.17.jar" checksum="1818032796" size="489884"/>
+    <lib file="mail-1.4.7.jar" checksum="4208566166" size="521157"/>
+    <lib file="quartz-2.1.5.jar" checksum="3785911145" size="559428"/>
+    <lib file="rdpservice-3.0.jar" checksum="3094548330" size="3224579"/>
+    <lib file="slf4j-api-1.6.1.jar" checksum="170376736" size="25496"/>
+    <lib file="static/detail.png" checksum="561582479" size="649"/>
+    <lib file="static/favicon_ba.png" checksum="1370867219" size="476"/>
+    <lib file="static/Logo.png" checksum="1514285136" size="36169"/>
+    <lib file="views/bastrap3/assets/alerts/alert-calendario.png" checksum="2818086483" size="395"/>
+    <lib file="views/bastrap3/assets/alerts/alert-clima.png" checksum="1434522330" size="623"/>
+    <lib file="views/bastrap3/assets/alerts/alert-evento.png" checksum="4081688877" size="393"/>
+    <lib file="views/bastrap3/assets/alerts/alert-informacion.png" checksum="823197431" size="596"/>
+    <lib file="views/bastrap3/assets/alerts/alert-salud.png" checksum="1697909583" size="609"/>
+    <lib file="views/bastrap3/assets/alerts/alert-subte.png" checksum="3395621880" size="625"/>
+    <lib file="views/bastrap3/assets/alerts/alert-temperatura.png" checksum="2076820467" size="486"/>
+    <lib file="views/bastrap3/assets/alerts/alert-transito.png" checksum="1687942022" size="566"/>
+    <lib file="views/bastrap3/assets/bac-header.png" checksum="3518899278" size="3851"/>
+    <lib file="views/bastrap3/assets/bavos-footer.png" checksum="4149943641" size="2734"/>
+    <lib file="views/bastrap3/assets/content/arbol.png" checksum="654238629" size="1925"/>
+    <lib file="views/bastrap3/assets/content/ciudad.png" checksum="2588365850" size="1586"/>
+    <lib file="views/bastrap3/assets/content/obra.png" checksum="2266114636" size="2582"/>
+    <lib file="views/bastrap3/assets/content/obras_viales.png" checksum="435286939" size="2484"/>
+    <lib file="views/bastrap3/assets/content/tramite.png" checksum="828122639" size="1533"/>
+    <lib file="views/bastrap3/assets/medios/icon-medios1.png" checksum="2309291734" size="7805"/>
+    <lib file="views/bastrap3/assets/medios/icon-medios2.png" checksum="4120540551" size="3370"/>
+    <lib file="views/bastrap3/assets/medios/icon-medios3.png" checksum="3703593137" size="2262"/>
+    <lib file="views/bastrap3/assets/misc/icon-no.png" checksum="1251315787" size="1907"/>
+    <lib file="views/bastrap3/assets/misc/icon-ok.png" checksum="2570985950" size="1705"/>
+    <lib file="views/bastrap3/assets/misc/step-bg.png" checksum="704520487" size="122"/>
+    <lib file="views/bastrap3/assets/ribbons/ribbon-black.png" checksum="1653910271" size="916"/>
+    <lib file="views/bastrap3/assets/ribbons/ribbon-pink.png" checksum="323198245" size="933"/>
+    <lib file="views/bastrap3/assets/ribbons/ribbon-red.png" checksum="3303513209" size="915"/>
+    <lib file="views/bastrap3/assets/sellos/shortcut-cultural.png" checksum="1999464661" size="6481"/>
+    <lib file="views/bastrap3/assets/sellos/shortcut-evoluciona.png" checksum="1654015333" size="7490"/>
+    <lib file="views/bastrap3/assets/sellos/shortcut-verde.png" checksum="3789881635" size="5688"/>
+    <lib file="views/bastrap3/assets/sellos/shortcut-vos.png" checksum="3345201648" size="9280"/>
+    <lib file="views/bastrap3/assets/social/social-cc.png" checksum="877474259" size="2248"/>
+    <lib file="views/bastrap3/assets/social/social-fb.png" checksum="3696047937" size="1255"/>
+    <lib file="views/bastrap3/assets/social/social-fl.png" checksum="298626467" size="1465"/>
+    <lib file="views/bastrap3/assets/social/social-gp.png" checksum="1453650507" size="2065"/>
+    <lib file="views/bastrap3/assets/social/social-rss.png" checksum="944608917" size="1934"/>
+    <lib file="views/bastrap3/assets/social/social-tw.png" checksum="1537361804" size="1789"/>
+    <lib file="views/bastrap3/assets/social/social-user.png" checksum="384812061" size="1444"/>
+    <lib file="views/bastrap3/assets/social/social-yt.png" checksum="4226003498" size="2011"/>
+    <lib file="views/bastrap3/ba-btn-default.png" checksum="741461841" size="1830"/>
+    <lib file="views/bastrap3/ba-btn.png" checksum="218343274" size="1747"/>
+    <lib file="views/bastrap3/bac-footer.png" checksum="1087185378" size="3127"/>
+    <lib file="views/bastrap3/bac-header-2.png" checksum="2313029507" size="7010"/>
+    <lib file="views/bastrap3/bac-header.png" checksum="3457078063" size="1826"/>
+    <lib file="views/bastrap3/black4.png" checksum="1228019184" size="927"/>
+    <lib file="views/bastrap3/favicon-mobile.png" checksum="2318907033" size="3371"/>
+    <lib file="views/bastrap3/favicon.png" checksum="2155139877" size="3376"/>
+    <lib file="views/bastrap3/img/ba.png" checksum="2441289346" size="21090"/>
+    <lib file="views/bastrap3/img/cancel.png" checksum="4210851121" size="1319"/>
+    <lib file="views/bastrap3/img/detail.png" checksum="561582479" size="649"/>
+    <lib file="views/bastrap3/img/details_close.png" checksum="2127251502" size="686"/>
+    <lib file="views/bastrap3/img/details_open.png" checksum="1130583103" size="709"/>
+    <lib file="views/bastrap3/img/Logo.png" checksum="174264755" size="29316"/>
+    <lib file="views/bastrap3/img/sort_asc.png" checksum="900280769" size="160"/>
+    <lib file="views/bastrap3/img/sort_asc_disabled.png" checksum="741554600" size="148"/>
+    <lib file="views/bastrap3/img/sort_both.png" checksum="2804764815" size="201"/>
+    <lib file="views/bastrap3/img/sort_desc.png" checksum="674838400" size="158"/>
+    <lib file="views/bastrap3/img/sort_desc_disabled.png" checksum="1539127554" size="146"/>
+    <lib file="views/bastrap3/vendor/chosen/chosen-sprite.png" checksum="3877894238" size="538"/>
+    <lib file="views/bastrap3/vendor/chosen/chosen-sprite@2x.png" checksum="3477037107" size="738"/>
+    <lib file="views/bastrap3/white1.png" checksum="3709803211" size="928"/>
+    <updateText>Updating...</updateText>
+    <updateLabelStyle>-fx-font-weight: bold;</updateLabelStyle>
+    <progressBarStyle>-fx-pref-width: 200;</progressBarStyle>
+    <wrapperStyle>-fx-spacing: 10; -fx-padding: 25;</wrapperStyle>
+    <acceptDowngrade>false</acceptDowngrade>
+    <lingeringUpdateScreen>false</lingeringUpdateScreen>
+</Application>

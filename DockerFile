@@ -3,8 +3,12 @@ LABEL maintainer="maxmiliano.pizarro.5@gmail.com"
 ADD start.sh /start.sh
 ADD pg-restore.sh /pg-restore.sh
 
-RUN chmod +x /pg-restore.sh 
+ADD src/target/rdp-gcba.war /source/
+ADD db/base_infraesctructura.backup /source/
 
+RUN chmod +x /pg-restore.sh  && \
+    chmod +x /start.sh && \
+    mkdir -m 777 /source
 # set the startup command to execute the jar
 EXPOSE 8080
 CMD /start.sh 

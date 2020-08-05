@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-cd /db
-chmod +x db
+cd /source
+chmod +x source
 
 export DATABASE_URL="$DATABASE_URL"
 echo "pg restore"
