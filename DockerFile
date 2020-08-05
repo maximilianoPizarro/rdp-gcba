@@ -1,5 +1,1 @@
 FROM heroku/java
-
-ADD pg-restore.sh /pg-restore.sh
-
-RUN chmod +x /pg-restore.sh
