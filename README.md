@@ -1,8 +1,8 @@
-### Registro del Parque Informático 
+### Registro del Parque Informático *POC*
 
-*POC*
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-https://rdp-gcba.herokuapp.com/ [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+https://rdp-gcba.herokuapp.com/ 
 
 Prototipado del Artefacto Web para dar soporte a la gestión de equipos infraestructura
 de la Dirección General del Cuerpo de Agentes de Control del Tránsito y Seguridad Vial.
@@ -14,7 +14,6 @@ Técnologia Web:
 - Apache Tompcat
 &nbsp;
 
-### Screens
 &nbsp;
 
 &nbsp;
