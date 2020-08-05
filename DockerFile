@@ -1,7 +1,7 @@
 FROM tomcat:8.0-alpine
 LABEL maintainer="maxmiliano.pizarro.5@gmail.com"
 ADD pg-restore.sh /pg-restore.sh
-RUN chmod +x /pg-restore.sh 
+ENTRYPOINT  /pg-restore.sh 
 
 ADD src/target/rdp-gcba.war /usr/local/tomcat/webapps/
 
