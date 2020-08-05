@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-cd /source
-chmod +x source
+cd /basedatos
+chmod +x basedatos
 
 export DATABASE_URL="$DATABASE_URL"
 echo "pg restore"

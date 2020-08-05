@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd source/
-chmod +x source
+cd imagen/
+chmod +x imagen
 
-java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
+java $JAVA_OPTS -jar webapp-runner.jar --port $PORT rdp-gcba.war
