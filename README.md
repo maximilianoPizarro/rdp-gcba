@@ -16,7 +16,7 @@ Técnologia Web:
 
 ### Screens
 &nbsp;
-• 
+
 &nbsp;
 <p align="center">
   <img src="https://raw.githubusercontent.com/maximilianoPizarro/sugpa/master/screensMaqueta/1 - Iniciar sesión.jpg" width="800" title="hover text">
