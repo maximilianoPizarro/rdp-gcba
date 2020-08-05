@@ -1,12 +1,10 @@
-FROM tomcat:8.0-alpine
+FROM heroku/heroku:16
 LABEL maintainer="maxmiliano.pizarro.5@gmail.com"
 ADD pg-restore.sh /pg-restore.sh
-ENTRYPOINT  /pg-restore.sh 
-
-ADD src/target/rdp-gcba.war /usr/local/tomcat/webapps/
+RUN chmod +x /pg-restore.sh 
 
 # set the startup command to execute the jar
 EXPOSE 8080
-CMD ["chmod", "+x", "catalina.sh", "run"]
+CMD /start.sh 
 
 
