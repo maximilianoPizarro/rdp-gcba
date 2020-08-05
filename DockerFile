@@ -7,6 +7,6 @@ ADD src/target/rdp-gcba.war /usr/local/tomcat/webapps/
 
 # set the startup command to execute the jar
 EXPOSE 8080
-CMD ["catalina.sh", "run"]
+CMD ["chmod", "+x", "catalina.sh", "run"]
 
 
