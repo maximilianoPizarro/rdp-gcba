@@ -1,6 +1,8 @@
 FROM heroku/heroku:16
 LABEL maintainer="maxmiliano.pizarro.5@gmail.com"
+ADD start.sh /start.sh
 ADD pg-restore.sh /pg-restore.sh
+
 RUN chmod +x /pg-restore.sh 
 
 # set the startup command to execute the jar
