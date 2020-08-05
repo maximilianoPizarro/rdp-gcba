@@ -11,7 +11,7 @@ Técnologia Web:
 - Java 8
 - JQuery-JavaScript-Bastrap
 - PostgreSQL
-- Apache Tompcat
+- Apache Tomcat
 &nbsp;
 
 &nbsp;
