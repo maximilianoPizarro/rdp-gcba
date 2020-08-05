@@ -46,7 +46,6 @@ public class JpaConfiguration {
 			dataSource.setPassword(password);
 		
 		} catch (URISyntaxException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return dataSource;
