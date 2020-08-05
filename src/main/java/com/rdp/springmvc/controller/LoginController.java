@@ -8,7 +8,6 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 
-import javax.annotation.Resource;
 import javax.mail.internet.MimeMessage;
 import javax.servlet.ServletContext;
 import javax.validation.Valid;
