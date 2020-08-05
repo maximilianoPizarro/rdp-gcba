@@ -1,0 +1,5 @@
+{
+    "name": "RDP GCBA",
+    "description": "Registro del Parque informático",
+    "image": "heroku/java"
+  }
