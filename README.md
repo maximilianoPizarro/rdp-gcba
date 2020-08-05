@@ -8,8 +8,8 @@ Prototipado del Artefacto Web para dar soporte a la gestión de equipos infraest
 de la Dirección General del Cuerpo de Agentes de Control del Tránsito y Seguridad Vial.
 
 Técnologia Web:
-- Java 1.8
-- JQUERY-JS-Bastrap
+- Java 8
+- JQuery-JavaScript-Bastrap
 - PostgreSQL
 - Apache Tompcat
 &nbsp;
