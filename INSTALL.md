@@ -1,6 +1,5 @@
 ## Instalación
 
-Ejecutar todos los comandos desde /api-watson-flask
 
 1.  Instalar requerimientos:
     
@@ -8,8 +7,8 @@ Ejecutar todos los comandos desde /api-watson-flask
 
 2.  Crear variables de entorno:
 
-         DATABASE_URL   
-
+        DATABASE_URL   
+        PORT   
 
 2.  Importar esquema base de datos:
 
