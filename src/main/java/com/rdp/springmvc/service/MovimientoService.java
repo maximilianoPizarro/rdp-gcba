@@ -2,9 +2,7 @@ package com.rdp.springmvc.service;
 
 import java.util.List;
 
-import com.rdp.springmvc.model.Host;
 import com.rdp.springmvc.model.Movimiento;
-import com.rdp.springmvc.model.User;
 
 public interface MovimientoService {
 	

@@ -1,17 +1,12 @@
 package com.rdp.springmvc.dao;
 
-import java.util.GregorianCalendar;
 import java.util.List;
-
-import javax.persistence.NoResultException;
 
 import org.springframework.stereotype.Repository;
 
-import com.rdp.springmvc.model.Host;
 import com.rdp.springmvc.model.Movimiento;
 
 @Repository("movimientoDao")
-
 public class MovimientoDaoImpl extends AbstractDao<Integer, Movimiento> implements MovimientoDao {
 
 	@SuppressWarnings("unchecked")

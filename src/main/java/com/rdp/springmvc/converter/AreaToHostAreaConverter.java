@@ -5,9 +5,7 @@ import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 
 import com.rdp.springmvc.model.HostArea;
-import com.rdp.springmvc.model.UserProfile;
 import com.rdp.springmvc.service.AreaService;
-import com.rdp.springmvc.service.UserProfileService;
 
 /**
  * A converter class used in views to map id's to actual areaHost objects.

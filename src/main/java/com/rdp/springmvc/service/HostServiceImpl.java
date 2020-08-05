@@ -9,7 +9,6 @@ import org.springframework.transaction.annotation.Transactional;
 import com.google.gson.Gson;
 import com.rdp.springmvc.dao.HostDao;
 import com.rdp.springmvc.model.Host;
-import com.rdp.springmvc.model.User;
 
 @Service("hostService")
 @Transactional

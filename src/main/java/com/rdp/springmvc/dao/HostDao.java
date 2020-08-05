@@ -2,7 +2,6 @@ package com.rdp.springmvc.dao;
 
 import java.util.List;
 
-import com.google.gson.JsonElement;
 import com.rdp.springmvc.model.Host;
 
 public interface HostDao {

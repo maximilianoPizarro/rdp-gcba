@@ -2,7 +2,6 @@ package com.rdp.springmvc.model;
 
 import java.io.Serializable;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 import javax.persistence.Column;
@@ -17,12 +16,9 @@ import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
 import org.hibernate.validator.constraints.NotEmpty;
-import org.springframework.context.annotation.Scope;
-import org.springframework.stereotype.Component;
 
 @Entity
 @Table(name="APP_USER")
-
 public class User implements Serializable{
 
 	/**

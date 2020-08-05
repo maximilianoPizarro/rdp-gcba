@@ -2,12 +2,10 @@ package com.rdp.springmvc.dao;
 
 import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;
-import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-import com.rdp.springmvc.model.Movimiento;
 
 public abstract class AbstractDao<PK extends Serializable, T> {
 	

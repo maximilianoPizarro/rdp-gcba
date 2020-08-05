@@ -22,7 +22,7 @@ public class HelloJob {
 		//pg_dump --dbname=postgresql://postgres:root@127.0.0.1:5432/infraesctructura -F c -b -v -f "C:\Users\Max\Desktop\backup_infraesctructura.backup"
 	
 		try {
-			Process start = Runtime.getRuntime().exec(pg_dump);
+			Runtime.getRuntime().exec(pg_dump);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

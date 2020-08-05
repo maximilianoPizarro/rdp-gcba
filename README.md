@@ -9,9 +9,11 @@ de la Dirección General del Cuerpo de Agentes de Control del Tránsito y Seguri
 
 Técnologia Web:
 - Java 8
+- Spring Framework 4.3.0
+- Hibernate 5.2.8
 - JQuery-JavaScript-Bastrap
-- PostgreSQL
-- Apache Tomcat
+- PostgreSQL 9.0
+- Apache Tomcat 7
 &nbsp;
 
 &nbsp;

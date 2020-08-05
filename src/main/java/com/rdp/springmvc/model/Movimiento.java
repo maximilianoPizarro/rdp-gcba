@@ -1,7 +1,6 @@
 package com.rdp.springmvc.model;
 
 import java.io.Serializable;
-import java.util.GregorianCalendar;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -12,11 +11,9 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
-import org.hibernate.validator.constraints.NotEmpty;
 
 @Entity
 @Table(name = "movimiento")
-
 public class Movimiento implements Serializable  {
 	  
 		

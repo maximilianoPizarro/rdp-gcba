@@ -1,12 +1,7 @@
 package com.rdp.springmvc.controller;
 
 import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.HashSet;
 import java.util.Locale;
-import java.util.Map;
-import java.util.Set;
 
 import javax.mail.internet.MimeMessage;
 import javax.servlet.ServletContext;
@@ -15,19 +10,16 @@ import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.core.io.FileSystemResource;
-import org.springframework.core.io.InputStreamSource;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.mail.javamail.MimeMessagePreparator;
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -35,9 +27,7 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.web.context.request.WebRequest;
 
-import com.google.gson.Gson;
 import com.rdp.springmvc.model.User;
-import com.rdp.springmvc.model.UserProfile;
 import com.rdp.springmvc.service.HostService;
 import com.rdp.springmvc.service.UserProfileService;
 import com.rdp.springmvc.service.UserService;

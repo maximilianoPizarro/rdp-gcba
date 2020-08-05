@@ -4,14 +4,13 @@ import java.util.List;
 
 import javax.persistence.NoResultException;
 
-import org.hibernate.Query;
+
 import org.springframework.stereotype.Repository;
 
 import com.rdp.springmvc.model.Host;
-import com.rdp.springmvc.model.User;
+
 
 @Repository("hostDao")
-
 public class HostDaoImpl extends AbstractDao<Integer, Host> implements HostDao {
 
 	@SuppressWarnings("unchecked")

@@ -1,7 +1,6 @@
 package com.rdp.springmvc.controller;
 
 import java.io.File;
-import java.util.ArrayList;
 import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.Locale;
@@ -25,7 +24,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
-import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -39,12 +37,10 @@ import com.rdp.springmvc.model.Host;
 import com.rdp.springmvc.model.HostArea;
 import com.rdp.springmvc.model.HostUpdate;
 import com.rdp.springmvc.model.User;
-import com.rdp.springmvc.model.UserProfile;
 import com.rdp.springmvc.service.AreaService;
 import com.rdp.springmvc.service.HostService;
 import com.rdp.springmvc.service.HostUpdateService;
 import com.rdp.springmvc.service.MovimientoService;
-import com.rdp.springmvc.service.UserProfileService;
 import com.rdp.springmvc.service.UserService;
 
 @Controller
@@ -342,7 +338,6 @@ public class HostController {
 		final String email = usuarioService.traerEmailGerencia();
 		mailSenderObj.send(new MimeMessagePreparator() {
 			public void prepare(MimeMessage mimeMessage) throws Exception {
-				String sistema = "https://rdp-gcba.herokuapp.com/";
 				MimeMessageHelper mimeMsgHelperObj = new MimeMessageHelper(mimeMessage, true, "UTF-8");
 				mimeMessage.setRecipients(Message.RecipientType.CC, InternetAddress.parse(email));
 

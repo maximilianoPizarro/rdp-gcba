@@ -1,6 +1,5 @@
 package com.rdp.springmvc.service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import com.rdp.springmvc.model.User;

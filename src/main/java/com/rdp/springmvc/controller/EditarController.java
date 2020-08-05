@@ -1,7 +1,6 @@
 package com.rdp.springmvc.controller;
 
 import java.io.File;
-import java.util.List;
 
 import javax.mail.internet.MimeMessage;
 import javax.servlet.ServletContext;
@@ -15,8 +14,6 @@ import org.springframework.mail.javamail.MimeMessagePreparator;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.context.request.WebRequest;
@@ -27,7 +24,6 @@ import com.rdp.springmvc.service.UserService;
 
 @Controller
 @RequestMapping("/editar")
-
 public class EditarController {
 	
 	@Autowired
