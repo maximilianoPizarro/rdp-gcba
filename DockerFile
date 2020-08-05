@@ -3,7 +3,7 @@ LABEL maintainer="maxmiliano.pizarro.5@gmail.com"
 ADD pg-restore.sh /pg-restore.sh
 RUN chmod +x /pg-restore.sh 
 
-ADD target/rdp-gcba.war /usr/local/tomcat/webapps/
+ADD src/target/rdp-gcba.war /usr/local/tomcat/webapps/
 
 # set the startup command to execute the jar
 EXPOSE 8080
