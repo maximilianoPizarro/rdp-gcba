@@ -38,7 +38,7 @@ public class JpaConfiguration {
 		try {
 				
 			dataSource.setDriverClassName(environment.getRequiredProperty("jdbc.driverClassName"));
-			dataSource.setUrl(System.getenv("JDBC_URL"));
+			dataSource.setUrl(new URI(System.getenv("JDBC_URL")));
 			dataSource.setUsername(System.getenv("JDBC_USERNAME"));
 			dataSource.setPassword(System.getenv("JDBC_PASSWORD"));
 		
