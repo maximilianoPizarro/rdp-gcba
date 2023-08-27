@@ -23,17 +23,17 @@
  
 <context-param> 
 <param-name>JDBC_URL</param-name>
-<param-value>${jdbc.url}</param-value>
+<param-value>jdbc:postgresql://postgresql.mpizarro-dev.svc.cluster.local:5432/infraestructura</param-value>
 </context-param>
 
 <context-param> 
 <param-name>JDBC_USERNAME</param-name>
-<param-value>${jdbc.username}</param-value>
+<param-value>infraestructura</param-value>
 </context-param>
 
 <context-param> 
 <param-name>JDBC_PASSWORD</param-name>
-<param-value>${jdbc.password}</param-value>
+<param-value>infraestructura</param-value>
 </context-param>
 	
 	<error-page>
