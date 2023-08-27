@@ -34,11 +34,10 @@ public class JpaConfiguration {
 	@Bean
 	public DataSource dataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
-		URI dbUri;
 		try {
 				
 			dataSource.setDriverClassName(environment.getRequiredProperty("jdbc.driverClassName"));
-			dataSource.setUrl(new URI(System.getenv("JDBC_URL")));
+			dataSource.setUrl(new URI(System.getenv("JDBC_URL")).toString());
 			dataSource.setUsername(System.getenv("JDBC_USERNAME"));
 			dataSource.setPassword(System.getenv("JDBC_PASSWORD"));
 		
