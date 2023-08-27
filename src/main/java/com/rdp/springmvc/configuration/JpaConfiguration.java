@@ -36,14 +36,11 @@ public class JpaConfiguration {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		URI dbUri;
 		try {
-			dbUri = new URI(System.getenv("DATABASE_URL"));
-			String username = dbUri.getUserInfo().split(":")[0];
-			String password = dbUri.getUserInfo().split(":")[1];
-			String dbUrl = "jdbc:postgresql://" + dbUri.getHost() + dbUri.getPath();
+				
 			dataSource.setDriverClassName(environment.getRequiredProperty("jdbc.driverClassName"));
-			dataSource.setUrl(dbUrl);
-			dataSource.setUsername(username);
-			dataSource.setPassword(password);
+			dataSource.setUrl(System.getenv("JDBC_URL"));
+			dataSource.setUsername(System.getenv("JDBC_USERNAME"));
+			dataSource.setPassword(System.getenv("JDBC_PASSWORD"));
 		
 		} catch (URISyntaxException e) {
 			e.printStackTrace();
