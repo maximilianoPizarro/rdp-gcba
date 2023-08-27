@@ -20,6 +20,21 @@
         <load-on-startup>1</load-on-startup>
   </servlet>
   
+ 
+<context-param> 
+<param-name>${JDBC_URL}</param-name>
+<param-value>${jdbc.url}</param-value>
+</context-param>
+
+<context-param> 
+<param-name>${JDBC_USERNAME}</param-name>
+<param-value>${jdbc.username}</param-value>
+</context-param>
+
+<context-param> 
+<param-name>${JDBC_PASSWORD}</param-name>
+<param-value>${jdbc.password}</param-value>
+</context-param>
 	
 	<error-page>
 		<error-code>404</error-code>
