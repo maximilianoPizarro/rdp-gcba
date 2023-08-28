@@ -29,3 +29,8 @@
 ## Environment
         PORT   
         DATABASE_URL   
+
+## Environment Postgresql
+        curl -l -o infraestructura.sql https://raw.githubusercontent.com/maximilianoPizarro/rdp-gcba/master/src/main/resources/db/migration/infraestructura.sql
+
+        psql -f infraestructura.sql infraestructura
