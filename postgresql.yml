@@ -1,0 +1,13 @@
+version: '2'
+services:
+  rdp-gcba-postgresql:
+    image: postgres
+    environment:
+      - POSTGRES_DB=infraestructura
+      - POSTGRES_USER=infraestructura
+      - POSTGRES_PASSWORD=infraestructura
+    ports:
+      - 5432:5432
+    volumes:
+      - ./src/main/resources/db/migration/infraestructura.sql:/docker-entrypoint-initdb.d/infraestructura.sql
+      - ./postgres-data:/var/lib/postgresql/data      

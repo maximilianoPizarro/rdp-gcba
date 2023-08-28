@@ -1,8 +1,14 @@
 ### Registro del Parque Informático *POC*
 
+<p align="left">
+<img src="https://img.shields.io/badge/redhat-CC0000?style=for-the-badge&logo=redhat&logoColor=white" alt="Redhat">
+<img src="https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white" alt="kubernetes">
+<img src="https://img.shields.io/badge/docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+<img src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="shell">
+</p>
+
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-https://rdp-gcba.herokuapp.com/ 
 
 Prototipado del Artefacto Web para dar soporte a la gestión de equipos infraestructura
 de la Dirección General del Cuerpo de Agentes de Control del Tránsito y Seguridad Vial.

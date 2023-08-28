@@ -5,6 +5,10 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 tasks:
-  - init: mvn install -DskipTests=false
-
-
+  - init: mvn clean install --batch-mode -DskipTests -P openshift
+    command: docker compose up
+ports:
+    - name: RDP-GCBA
+      port: 8080
+      onOpen: open-browser
+      visibility: public    

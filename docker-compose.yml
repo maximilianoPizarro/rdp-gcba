@@ -1,0 +1,15 @@
+version: '2'
+services:
+    rdp-gcba-web:
+        build: .
+        image: rdp-gcba-web
+        environment:
+            - JDBC_URL=jdbc:postgresql://rdp-gcba-postgresql:5432/infraestructura
+            - JDBC_USERNAME=infraestructura
+            - JDBC_PASSWORD=infraestructura
+        ports:
+            - "8080:8080"        
+    rdp-gcba-postgresql:
+     extends:
+        file: postgresql.yml
+        service: rdp-gcba-postgresql
