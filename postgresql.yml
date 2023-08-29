@@ -1,7 +1,7 @@
-version: '2'
+version: '3.7'
 services:
   rdp-gcba-postgresql:
-    image: postgres
+    image: postgres:12-alpine
     environment:
       - POSTGRES_DB=infraestructura
       - POSTGRES_USER=infraestructura
@@ -10,4 +10,8 @@ services:
       - 5432:5432
     volumes:
       - ./src/main/resources/db/migration/infraestructura.sql:/docker-entrypoint-initdb.d/infraestructura.sql
-      - ./postgres-data:/var/lib/postgresql/data      
+      - ./postgres-data:/var/lib/postgresql/data 
+    networks:
+      - monolito
+networks:
+  monolito: {}

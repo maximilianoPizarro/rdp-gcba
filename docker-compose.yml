@@ -17,7 +17,6 @@ services:
      extends:
         file: postgresql.yml
         service: rdp-gcba-postgresql
-        networks:
-            - monolito
+
 networks:
   monolito: {}
