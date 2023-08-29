@@ -23,10 +23,10 @@ SET row_security = off;
 -- Name: public; Type: SCHEMA; Schema: -; Owner: postgres
 --
 
-CREATE SCHEMA IF NOT EXISTS public;
+--CREATE SCHEMA IF NOT EXISTS public;
 
 
-ALTER SCHEMA public OWNER TO postgres;
+--ALTER SCHEMA public OWNER TO postgres;
 
 --
 -- TOC entry 2304 (class 0 OID 0)
