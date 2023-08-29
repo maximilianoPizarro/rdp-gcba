@@ -1,4 +1,4 @@
-version: '2'
+version: '3.7'
 services:
     rdp-gcba-web:
         build: .
@@ -8,8 +8,16 @@ services:
             - JDBC_USERNAME=infraestructura
             - JDBC_PASSWORD=infraestructura
         ports:
-            - "8080:8080"        
+            - "8080:8080"
+        depends_on:
+            - rdp-gcba-postgresql
+        networks:
+            - monolito
     rdp-gcba-postgresql:
      extends:
         file: postgresql.yml
         service: rdp-gcba-postgresql
+        networks:
+            - monolito
+networks:
+  monolito: {}
