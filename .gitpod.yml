@@ -12,3 +12,10 @@ ports:
       port: 8080
       onOpen: open-browser
       visibility: public    
+    - name: POSGRES-DB
+      port: 5432
+      visibility: public
+    - name: WILDFLY-MANAGEMENT
+      port: 9990
+      onOpen: open-browser
+      visibility: public          
